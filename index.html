@@ -8,8 +8,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
-  <body>
-  <div class="jumbotron text-center">
+  <body style="background:#5b5269; color:white;">
+  <div class="jumbotron text-center" style="background:#44344b;">
+      <img src="logo.png" alt="Mastercard logo" style="width:20%;height:20%;"/>
       <h1 class="titles">Mastercard Challenge</h1>
       <p class="subtitles">By Emanuel Ivan</p>
   </div>
@@ -18,8 +19,8 @@
         <div class="col-6 text-center">
           <h3 class="titles">Most frequent integer</h3>
           <p class="text">Please input your integers below:</p>
-          <input type="number" id="noInput" min="0" step="1"/>
-          <button type="button" onclick="addInteger()">Add integer</button>
+          <input type="number" id="noInput" min="0" step="1" style="color:black;"/>
+          <button type="button" onclick="addInteger()" style="background:black;">Add integer</button>
           <p>Current Array:</p>
           <p id="arrayOutput"/>
           <p>Most common integer:</p>
@@ -30,8 +31,8 @@
         <div class="col-6 text-center">
           <h3 class="titles">String iteratively and recursively</h3>
           <p class="text">Please input your string below:</p>
-          <input type="text" id="textSubmitted"/>
-          <button type="button" onclick="stringSubmitted()">Input string</button>
+          <input type="text" id="textSubmitted" style="color:black;"/>
+          <button type="button" onclick="stringSubmitted()" style="background:black;">Input string</button>
           <p>Result Iteratively:</p>
           <p id="stringOutputIter"/>
           <p>Result Recursively:</p>
