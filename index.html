@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  <div class="jumbotron text-center">
+      <h1 class="titles">Mastercard Challenge</h1>
+      <p class="subtitles">By Emanuel Ivan</p>
+  </div>
+  <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-6 text-center">
+          <h3 class="titles">Most frequent integer</h3>
+          <p class="text">Please input your integers below:</p>
+          <input type="number" id="noInput" min="0" step="1"/>
+          <button type="button" onclick="addInteger()">Add integer</button>
+          <p>Current Array:</p>
+          <p id="arrayOutput"/>
+          <p>Most common integer:</p>
+          <p id="commonNumberOutput"/>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-6 text-center">
+          <h3 class="titles">String iteratively and recursively</h3>
+          <p class="text">Please input your string below:</p>
+          <input type="text" id="textSubmitted"/>
+          <button type="button" onclick="stringSubmitted()">Input string</button>
+          <p>Result Iteratively:</p>
+          <p id="stringOutputIter"/>
+          <p>Result Recursively:</p>
+          <p id="stringOutputRec"/>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-6 text-center">
+          <h3 class="titles">Hello world!</h3>
+        </div>
+    </div>
+  </div>
+      <script src="script.js"></script>
+  </body>
+</html>
